@@ -24,7 +24,8 @@
     "web-vitals": "^2.1.0"
   },
   "scripts": {
-    "start": "npm install --force && npm start"
+    "start": "npm install --force && npm start",
+    "build": "npm install --force && npm start"
   },
   "eslintConfig": {
     "extends": [
