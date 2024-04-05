@@ -30,7 +30,7 @@ const useStyles = makeStyles((theme) => ({
   }
 }));
 
-export default function ({ open, handleDrawerClose }) {
+export default function Sidebar({ open, handleDrawerClose }) {
   const classes = useStyles();
 
   return (

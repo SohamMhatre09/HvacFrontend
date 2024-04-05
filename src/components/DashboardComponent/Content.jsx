@@ -63,7 +63,7 @@ export default function Content() {
         {/* Active Energy */}
         <div className="image-wrapper">
           <h2>Active Energy</h2>
-          <a href={active_energy} target="_blank">
+          <a href={active_energy} target="_blank" rel="noreferrer">
             <img className="content-image" src={active_energy} alt="Active Energy" />
           </a>
         </div>
@@ -71,7 +71,7 @@ export default function Content() {
         {/* Active Power */}
         <div className="image-wrapper">
           <h2>Anomalies in Active Power</h2>
-          <a href={active_power} target="_blank">
+          <a href={active_power} target="_blank" rel="noreferrer">
             <img className="content-image" src={active_power} alt="Active Power" />
           </a>
         </div>
@@ -79,7 +79,7 @@ export default function Content() {
         {/* Ambient Temperature 2 */}
         <div className="image-wrapper">
           <h2>Anomalies in Ambient Temperature 2</h2>
-          <a href={amb_temp_2} target="_blank">
+          <a href={amb_temp_2} target="_blank" rel="noreferrer">
             <img className="content-image" src={amb_temp_2} alt="Ambient Temperature 2" />
           </a>
         </div>
@@ -87,7 +87,7 @@ export default function Content() {
         {/* Anomaly Ambient Humidity 1 */}
         <div className="image-wrapper">
           <h2>Anomalies in Ambient Humidity 1</h2>
-          <a href={amb_humdity_1} target="_blank">
+          <a href={amb_humdity_1} target="_blank" rel="noreferrer">
             <img className="content-image" src={amb_humdity_1} alt="Anomaly Ambient Humidity 1" />
           </a>
         </div>
@@ -95,7 +95,7 @@ export default function Content() {
         {/* Anomaly CO2 */}
         <div className="image-wrapper">
           <h2>Anomalies in CO2</h2>
-          <a href={co2} target="_blank">
+          <a href={co2} target="_blank" rel="noreferrer">
             <img className="content-image" src={co2} alt="Anomaly CO2" />
           </a>
         </div>
@@ -103,7 +103,7 @@ export default function Content() {
         {/* Anomaly High Pressure 1 */}
         <div className="image-wrapper">
           <h2>Anomalies in High Pressure 1</h2>
-          <a href={HP1} target="_blank">
+          <a href={HP1} target="_blank" rel="noreferrer">
             <img className="content-image" src={HP1} alt="Anomaly High Pressure 1" />
           </a>
         </div>
@@ -111,7 +111,7 @@ export default function Content() {
         {/* Anomaly High Pressure 2 */}
         <div className="image-wrapper">
           <h2>Anomalies in High Pressure 2</h2>
-          <a href={HP2} target="_blank">
+          <a href={HP2} target="_blank" rel="noreferrer">
             <img className="content-image" src={HP2} alt="Anomaly High Pressure 2" />
           </a>
         </div>
@@ -119,7 +119,7 @@ export default function Content() {
         {/* Anomaly High Pressure 3 */}
         <div className="image-wrapper">
           <h2>Anomalies in High Pressure 3</h2>
-          <a href={HP3} target="_blank">
+          <a href={HP3} target="_blank" rel="noreferrer">
             <img className="content-image" src={HP3} alt="Anomaly High Pressure 3" />
           </a>
         </div>
@@ -127,7 +127,7 @@ export default function Content() {
         {/* Anomaly Low Pressure 1 */}
         <div className="image-wrapper">
           <h2>Anomalies in Low Pressure 1</h2>
-          <a href={LP1} target="_blank">
+          <a href={LP1} target="_blank" rel="noreferrer">
             <img className="content-image" src={LP1} alt="Anomaly Low Pressure 1" />
           </a>
         </div>
@@ -135,7 +135,7 @@ export default function Content() {
         {/* Anomaly Low Pressure 2 */}
         <div className="image-wrapper">
           <h2>Anomalies in Low Pressure 2</h2>
-          <a href={LP2} target="_blank">
+          <a href={LP2} target="_blank" rel="noreferrer">
             <img className="content-image" src={LP2} alt="Anomaly Low Pressure 2" />
           </a>
         </div>
@@ -143,7 +143,7 @@ export default function Content() {
         {/* Anomaly Low Pressure 3 */}
         <div className="image-wrapper">
           <h2>Anomalies in Low Pressure 3</h2>
-          <a href={LP3} target="_blank">
+          <a href={LP3} target="_blank" rel="noreferrer">
             <img className="content-image" src={LP3} alt="Anomaly Low Pressure 3" />
           </a>
         </div>
@@ -151,7 +151,7 @@ export default function Content() {
         {/* Anomaly Outlet Temperature */}
         <div className="image-wrapper">
           <h2>Anomalies in Outlet Temperature</h2>
-          <a href={OutletTemp} target="_blank">
+          <a href={OutletTemp} target="_blank" rel="noreferrer">
             <img className="content-image" src={OutletTemp} alt="Anomaly Outlet Temperature" />
           </a>
         </div>
@@ -159,7 +159,7 @@ export default function Content() {
         {/* Anomaly Outside Temperature */}
         <div className="image-wrapper">
           <h2>Anomalies in Outside Temperature</h2>
-          <a href={OutsideTemp} target="_blank">
+          <a href={OutsideTemp} target="_blank" rel="noreferrer">
             <img className="content-image" src={OutsideTemp} alt="Anomaly Outside Temperature" />
           </a>
         </div>
@@ -167,7 +167,7 @@ export default function Content() {
         {/* Inlet Temperature */}
         <div className="image-wrapper">
           <h2>Anomalies in Inlet Temperature</h2>
-          <a href={inletTemp} target="_blank">
+          <a href={inletTemp} target="_blank" rel="noreferrer">
             <img className="content-image" src={inletTemp} alt="Inlet Temperature" />
           </a>
         </div>
@@ -179,7 +179,7 @@ export default function Content() {
         {/* Global Bar Plot */}
         <div className="image-wrapper">
           <h2>Global Bar Plot</h2>
-          <a href={globalbarplot} target="_blank">
+          <a href={globalbarplot} target="_blank" rel="noreferrer">
             <img className="content-image" src={globalbarplot} alt="Global Bar Plot" />
           </a>
         </div>
@@ -187,7 +187,7 @@ export default function Content() {
         {/* Local Bar Plot */}
         <div className="image-wrapper">
           <h2>Local Bar Plot</h2>
-          <a href={localBarPlot} target="_blank">
+          <a href={localBarPlot} target="_blank" rel="noreferrer">
             <img className="content-image" src={localBarPlot} alt="Local Bar Plot" />
           </a>
         </div>
@@ -195,7 +195,7 @@ export default function Content() {
         {/* Scatter Plot */}
         <div className="image-wrapper">
           <h2>Scatter Plot</h2>
-          <a href={scatterPlot} target="_blank">
+          <a href={scatterPlot} target="_blank" rel="noreferrer">
             <img className="content-image" src={scatterPlot} alt="Scatter Plot" />
           </a>
         </div>
@@ -203,7 +203,7 @@ export default function Content() {
         {/* Shap Plot */}
         <div className="image-wrapper">
           <h2>Shap Plot</h2>
-          <a href={shapPlot} target="_blank">
+          <a href={shapPlot} target="_blank" rel="noreferrer">
             <img className="content-image" src={shapPlot} alt="Shap Plot" />
           </a>
         </div>
@@ -211,7 +211,7 @@ export default function Content() {
         {/* Waterfall Plot */}
         <div className="image-wrapper">
           <h2>Waterfall Plot</h2>
-          <a href={waterfallPlot} target="_blank">
+          <a href={waterfallPlot} target="_blank" rel="noreferrer">
             <img className="content-image" src={waterfallPlot} alt="Waterfall Plot" />
           </a>
         </div>
@@ -220,7 +220,7 @@ export default function Content() {
       {/* Force Plot */}
       <div className="image-wrapper">
         <h2>Force Plot</h2>
-        <a href={forceplot} target="_blank">
+        <a href={forceplot} target="_blank" rel="noreferrer">
           <img className="content-image" src={forceplot} alt="Force Plot" />
         </a>
       </div>
@@ -256,7 +256,7 @@ export default function Content() {
       {/* ROC Curve */}
       <div className="image-wrapper">
         <h2>ROC Curve</h2>
-        <a href={rocCurve} target="_blank">
+        <a href={rocCurve} target="_blank" rel="noreferrer">
           <img className="content-image" src={rocCurve} alt="ROC Curve" />
         </a>
       </div>
