@@ -57,7 +57,7 @@ const SignupForm = ({ onSwitchMode }) => {
             Create an account
           </Typography>
           <Typography color={colors.grey[600]}>
-            Doloribus dolorem impedit aliquam sit veniam
+            Register to continue !!
           </Typography>
         </Stack>
 

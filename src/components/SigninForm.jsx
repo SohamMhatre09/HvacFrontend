@@ -51,7 +51,7 @@ const SigninForm = ({ onSwitchMode }) => {
             Welcome back!!
           </Typography>
           <Typography color={colors.grey[600]}>
-            Whatever you want to write
+            Sign in to continue
           </Typography>
         </Stack>
 
