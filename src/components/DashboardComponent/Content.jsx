@@ -37,12 +37,13 @@ export default function Content() {
   return (
     <div>
       <div>
-        <h2>Data Table</h2>
+        <h2>Power Forecast for next 10 days</h2>
+        <hr />
         <table className="data-table">
           <thead>
             <tr>
               <th>Date</th>
-              <th>Active Power</th>
+              <th>Estimated Active Power</th>
             </tr>
           </thead>
           <tbody>
@@ -55,7 +56,8 @@ export default function Content() {
           </tbody>
         </table>
       </div>
-  
+      <h2>Detected Anomalies</h2>
+        <hr />
       <div className="image-container">
         {/* Active Energy */}
         <div className="image-wrapper">
@@ -65,81 +67,87 @@ export default function Content() {
   
         {/* Active Power */}
         <div className="image-wrapper">
-          <h2>Active Power</h2>
+          <h2>Anomalies in Active Power</h2>
           <img className="content-image" src={active_power} alt="Active Power" />
         </div>
   
         {/* Ambient Temperature 2 */}
         <div className="image-wrapper">
-          <h2>Ambient Temperature 2</h2>
+          <h2>Anomalies in Ambient Temperature 2</h2>
           <img className="content-image" src={amb_temp_2} alt="Ambient Temperature 2" />
         </div>
   
         {/* Anomaly Ambient Humidity 1 */}
         <div className="image-wrapper">
-          <h2>Anomaly Ambient Humidity 1</h2>
+          <h2>Anomalies in Ambient Humidity 1</h2>
           <img className="content-image" src={amb_humdity_1} alt="Anomaly Ambient Humidity 1" />
         </div>
   
         {/* Anomaly CO2 */}
         <div className="image-wrapper">
-          <h2>Anomaly CO2</h2>
+          <h2>Anomalies in CO2</h2>
           <img className="content-image" src={co2} alt="Anomaly CO2" />
         </div>
   
         {/* Anomaly High Pressure 1 */}
         <div className="image-wrapper">
-          <h2>Anomaly High Pressure 1</h2>
+          <h2>Anomalies in High Pressure 1</h2>
           <img className="content-image" src={HP1} alt="Anomaly High Pressure 1" />
         </div>
   
         {/* Anomaly High Pressure 2 */}
         <div className="image-wrapper">
-          <h2>Anomaly High Pressure 2</h2>
+          <h2>Anomalies in High Pressure 2</h2>
           <img className="content-image" src={HP2} alt="Anomaly High Pressure 2" />
         </div>
   
         {/* Anomaly High Pressure 3 */}
         <div className="image-wrapper">
-          <h2>Anomaly High Pressure 3</h2>
+          <h2>Anomalies in High Pressure 3</h2>
           <img className="content-image" src={HP3} alt="Anomaly High Pressure 3" />
         </div>
   
         {/* Anomaly Low Pressure 1 */}
         <div className="image-wrapper">
-          <h2>Anomaly Low Pressure 1</h2>
+          <h2>AAnomalies in Low Pressure 1</h2>
           <img className="content-image" src={LP1} alt="Anomaly Low Pressure 1" />
         </div>
   
         {/* Anomaly Low Pressure 2 */}
         <div className="image-wrapper">
-          <h2>Anomaly Low Pressure 2</h2>
+          <h2>Anomalies in Low Pressure 2</h2>
           <img className="content-image" src={LP2} alt="Anomaly Low Pressure 2" />
         </div>
   
         {/* Anomaly Low Pressure 3 */}
         <div className="image-wrapper">
-          <h2>Anomaly Low Pressure 3</h2>
+          <h2>Anomalies in Low Pressure 3</h2>
           <img className="content-image" src={LP3} alt="Anomaly Low Pressure 3" />
         </div>
   
         {/* Anomaly Outlet Temperature */}
         <div className="image-wrapper">
-          <h2>Anomaly Outlet Temperature</h2>
+          <h2>Anomalies in Outlet Temperature</h2>
           <img className="content-image" src={OutletTemp} alt="Anomaly Outlet Temperature" />
         </div>
   
         {/* Anomaly Outside Temperature */}
         <div className="image-wrapper">
-          <h2>Anomaly Outside Temperature</h2>
+          <h2>Anomalies in Outside Temperature</h2>
           <img className="content-image" src={OutsideTemp} alt="Anomaly Outside Temperature" />
         </div>
-  
-        {/* Force Plot */}
+        {/* Inlet Temperature */}
         <div className="image-wrapper">
-          <h2>Force Plot</h2>
-          <img className="content-image" src={forceplot} alt="Force Plot" />
+          <h2>Anomalies in Inlet Temperature</h2>
+          <img className="content-image" src={inletTemp} alt="Inlet Temperature" />
         </div>
+  
+        
+      </div>
+      <h2>Explainable AI (XAI) using SHAP</h2>
+        <hr />
+      <div className="image-container">
+        
   
         {/* Global Bar Plot */}
         <div className="image-wrapper">
@@ -147,11 +155,7 @@ export default function Content() {
           <img className="content-image" src={globalbarplot} alt="Global Bar Plot" />
         </div>
   
-        {/* Inlet Temperature */}
-        <div className="image-wrapper">
-          <h2>Inlet Temperature</h2>
-          <img className="content-image" src={inletTemp} alt="Inlet Temperature" />
-        </div>
+        
   
         {/* Local Bar Plot */}
         <div className="image-wrapper">
@@ -159,11 +163,7 @@ export default function Content() {
           <img className="content-image" src={localBarPlot} alt="Local Bar Plot" />
         </div>
   
-        {/* ROC Curve */}
-        <div className="image-wrapper">
-          <h2>ROC Curve</h2>
-          <img className="content-image" src={rocCurve} alt="ROC Curve" />
-        </div>
+        
   
         {/* Scatter Plot */}
         <div className="image-wrapper">
@@ -183,6 +183,48 @@ export default function Content() {
           <img className="content-image" src={waterfallPlot} alt="Waterfall Plot" />
         </div>
       </div>
+      {/* Force Plot */}
+      <div className="image-wrapper">
+          <h2>Force Plot</h2>
+          <img className="content-image" src={forceplot} alt="Force Plot" />
+        </div>
+        <div >
+                <h2>Model Details</h2>
+                <hr/>
+                <p><h2>
+                    Model Architecture:</h2>
+                    <pre>
+                        {`
+  Model: "sequential_1"
+  __________________________________________________________________
+    Layer (type)                Output Shape              Param #   
+  ==================================================================
+    lstm_2 (LSTM)               (None, 30, 128)           75776     
+                                        
+    lstm_3 (LSTM)               (None, 64)                49408     
+                                        
+    dropout_1 (Dropout)         (None, 64)                0         
+                                        
+    dense_1 (Dense)             (None, 1)                 65        
+  =================================================================
+  Total params: 125249 (489.25 KB)
+  Trainable params: 125249 (489.25 KB)
+  Non-trainable params: 0 (0.00 Byte)
+                        `}
+                    </pre>
+                </p>
+                <p>
+                  <h2>
+                    Mean Squared Error: 0.00577149074524641
+                    </h2>
+                </p></div>
+                <hr />
+                {/* ROC Curve */}
+        <div className="image-wrapper">
+          <h2>ROC Curve</h2>
+          
+          <img className="content-image" src={rocCurve} alt="ROC Curve" />
+        </div>
     </div>
   );
   
